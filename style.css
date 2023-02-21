@@ -309,14 +309,14 @@ a img.aligncenter {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #ffffff;
+	color: rgb(207, 13, 161);
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
 	text-transform: capitalize;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffffff;
+	color: #28a9e2;
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
@@ -397,11 +397,11 @@ a img.aligncenter {
 	z-index: 1;
 }
 .heading h1{
-	color: #ffffff;
+	color: #aa5288;
 	font-weight: 700;
-	font-size: 62px;
+	font-size:40px;
 	text-transform: capitalize;
-    padding-top:200px;
+    padding-top:00px;
 }
 .heading p{
 	font-size: 18px;
@@ -409,7 +409,25 @@ a img.aligncenter {
 }
 
 .heading h3{
-	color: ffffff;
+	color: #ffffff;
+}
+
+#home{
+    background-image: url(./images/Frontend.htm);
+    opacity:1 ;
+}
+.bio{
+    width:200px ;
+    height:300px ;
+    margin-top:40px ;
+   
+}
+
+
+
+.contact-img{
+   width:150px; 
+   border-radius:50%;
 }
 
 .cd-words-wrapper {
@@ -444,6 +462,7 @@ xclip
   padding: .2em 0;
   color: #ffffff;
   font-size: 30px;
+
 }
 .cd-headline.clip span b{
 	text-transform: uppercase;
@@ -452,6 +471,7 @@ xclip
   overflow: hidden;
   vertical-align: top;
 }
+
 .cd-headline.clip .cd-words-wrapper::after {
   /* line */
   content: '';
@@ -468,6 +488,7 @@ xclip
 .cd-headline.clip b.is-visible {
   opacity: 1;
 }
+
 
 
 #mainNav.navbar-shrink {
