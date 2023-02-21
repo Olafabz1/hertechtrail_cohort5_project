@@ -424,7 +424,13 @@ a img.aligncenter {
    
 }
 
+.services{
+    display: flex;
+}
 
+.design{
+    margin-left:80px ;
+}
 
 .contact-img{
    width:150px; 
