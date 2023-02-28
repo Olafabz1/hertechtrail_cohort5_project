@@ -31,7 +31,7 @@ body {
 }
 
 html, body{
-	height: 100%;
+	/*height: 100%;*/
 }
 
 body.demos .section {
@@ -308,6 +308,9 @@ a img.aligncenter {
 	transition: all 0.3s ease 0s;
 }
 
+.img-fluid{
+    border-radius:50%;
+}
 .navbar-dark .navbar-nav .nav-link{
 	color: rgb(207, 13, 161);
 	letter-spacing: 1px;
@@ -1748,10 +1751,10 @@ hr.invis1 {
 }
 .our-team .pic{
     border-top: none;
-    border-bottom: 5px solid #28a9e2;
+    /*border-bottom: 5px solid #28a9e2;*/
     border-radius: 50% 50% 0 50%;
     overflow: hidden;
-    transition: all 0.5s ease 0s;
+    /*transition: all 0.5s ease 0s;*/
 }
 .our-team:hover .pic{    
     border-bottom-color: #1c142b;
@@ -1760,7 +1763,7 @@ hr.invis1 {
 .our-team .pic img{
     width: 100%;
     height: auto;
-    transition: all 0.5s ease 0s;
+   /* transition: all 0.5s ease 0s;*/
 }
 .our-team .team-content{ padding: 20px 0; }
 .our-team .title{
@@ -2383,6 +2386,7 @@ select.mobile-device {
     background-color: #1f1f1f;
     box-sizing: border-box;
     width: 100%;
+    height:200px;
     text-align: center;
     padding: 30px 0px;
     overflow: hidden;
@@ -2644,4 +2648,7 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 900px) {
+    
 }
