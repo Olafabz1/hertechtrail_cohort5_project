@@ -290,7 +290,7 @@ a img.aligncenter {
     height: auto;
     left: 5px;
     line-height: normal;
-    padding: 15px 23px 14px;
+    padding: 15px 23px 14px;f
     text-decoration: none;
     top: 5px;
     width: auto;
@@ -1752,8 +1752,8 @@ hr.invis1 {
 .our-team .pic{
     border-top: none;
     /*border-bottom: 5px solid #28a9e2;*/
-    border-radius: 50% 50% 0 50%;
-    overflow: hidden;
+ 
+    /*overflow: hidden;*/
     /*transition: all 0.5s ease 0s;*/
 }
 .our-team:hover .pic{    
