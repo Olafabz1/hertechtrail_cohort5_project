@@ -845,7 +845,7 @@ xclip
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease-out;messagee
 }
 .hvr-bounce-to-top:hover::before, .hvr-bounce-to-top:focus::before, .hvr-bounce-to-top:active::before {
     -webkit-transform: scaleY(1);
@@ -1266,6 +1266,7 @@ xclip
 
 .event_dit{
 	margin-top: 20px;
+    width:100%;
 }
 .event_dit ul {
 	float: left;
@@ -1643,10 +1644,10 @@ hr.invis1 {
 .gallery-list .img-overlay {
 	border-radius: 100px 100px 0px 100px;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
     background: rgba(40, 169, 226, 0.80);
     color: #35424C;
     opacity: 0;
